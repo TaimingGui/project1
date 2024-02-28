@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DCDCDC;
+}
+span {
+    display: none; 
+  }
+
+canvas {
+cursor: crosshair;
+}
+
+span {
+  font-family: 'Georgia', cursive;
+font-size: 40px;
+position: fixed; 
+top: 50%;
+left: 50%;
+color: #000;
+margin-top: -40px;
+margin-left: -200px;
+}
+body{
+  background-color: #DCDCDC;
+  overflow: hidden;
+}
+.pp{
+  writing-mode: vertical-lr;
+  font-size: 65px;
+  position: fixed;
+  margin: 150px 0 0 300px;
+  color: #ececec;
+  letter-spacing: 100px;
+}
+.po{
+  font-size: 75px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #929292;
+}
